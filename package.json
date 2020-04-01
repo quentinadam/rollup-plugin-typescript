@@ -12,7 +12,8 @@
   "types": "./dist/index.d.js",
   "scripts": {
     "prettier": "prettier --write ./src",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo \"No test specified\""
   },
   "dependencies": {
     "typescript": "^3.8.3"
