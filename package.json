@@ -1,6 +1,6 @@
 {
   "name": "@quentinadam/rollup-plugin-typescript",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "rollup.js plugin to roll typescript files",
   "author": "Quentin Adam",
   "license": "MIT",
@@ -13,7 +13,6 @@
   "scripts": {
     "prettier": "prettier --write ./src",
     "build": "tsc",
-    "publish": "npm publish --access public",
     "test": "echo \"No test specified\""
   },
   "dependencies": {
