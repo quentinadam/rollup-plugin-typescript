@@ -13,6 +13,7 @@
   "scripts": {
     "prettier": "prettier --write ./src",
     "build": "tsc",
+    "publish": "npm publish --access public",
     "test": "echo \"No test specified\""
   },
   "dependencies": {
