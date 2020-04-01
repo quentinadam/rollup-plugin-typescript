@@ -1,5 +1,8 @@
 # @quentinadam/rollup-plugin-typescript
 
+[![npm version](https://img.shields.io/npm/v/@quentinadam/rollup-plugin-typescript.svg?style=flat-square)](https://www.npmjs.com/package/@quentinadam/rollup-plugin-typescript)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/)
+
 ## Installation
 
 ```
