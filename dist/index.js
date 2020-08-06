@@ -99,10 +99,20 @@ function default_1() {
                 outDir: undefined,
                 outFile: undefined,
             });
-            if (typeof options.input !== 'string') {
+            let input;
+            if (typeof options.input === 'string') {
+                input = options.input;
+            }
+            else if (typeof options.input === 'object' &&
+                options.input instanceof Array &&
+                options.input.length === 1 &&
+                typeof options.input[0] === 'string') {
+                input = options.input[0];
+            }
+            else {
                 throw new Error('Only single string input supported');
             }
-            compiler = new Compiler(options.input, compilerOptions);
+            compiler = new Compiler(input, compilerOptions);
             resolver = new Resolver(compilerOptions);
         },
         resolveId(source, importer) {
